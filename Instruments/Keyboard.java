@@ -14,9 +14,30 @@ public class Keyboard extends Instrument{
     
   }
 
-  public String play(){
+  public String getplay(){
     return "Do di do di do di do di";  //keyboard cat
 
   }
+   
+    public String getManufacturer(){
+      return this.manufacturer;
 
-}
+    }
+
+
+    public String getColour(){
+      return this.colour;
+
+    }
+
+    public String getMaterial(){
+      return this.material;
+
+    }
+
+    public String getType(){
+      return this.type;
+
+    }
+    
+  }
