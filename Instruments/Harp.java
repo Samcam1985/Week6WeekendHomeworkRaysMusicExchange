@@ -15,10 +15,37 @@ public class Harp extends Instrument{
     this.spareStrings = spareStrings;
   }
 
-  public String play(){
+  public String getplay(){
     return "Pling Pling";
 
   }
+  public int getNumberOfStrings(){
+    return this.numberOfStrings;
+  }
 
+  public String getManufacturer(){
+    return this.manufacturer;
 
+  }
+
+  public String getSpareStrings(){
+    return this.spareStrings;
+
+  }
+
+  public String getColour(){
+    return this.colour;
+
+  }
+
+  public String getMaterial(){
+    return this.material;
+
+  }
+
+  public String getType(){
+    return this.type;
+
+  }
+  
 }
