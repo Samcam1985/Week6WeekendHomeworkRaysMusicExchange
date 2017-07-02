@@ -15,8 +15,20 @@ public abstract class Instrument implements Playable{
 
   public String play(){
     return "";
+  }
+
+  public String getColour(){
+    return this.colour;
+  }
+
+  public String getMaterial(){
+    return this.material;
 
   }
 
+  public String getType(){
+    return this.type;
+
+  }
   
   }

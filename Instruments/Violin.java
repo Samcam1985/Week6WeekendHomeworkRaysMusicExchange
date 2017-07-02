@@ -15,7 +15,8 @@ public class Violin extends Instrument{
     this.spareStrings = spareStrings;
   }
 
-  public String getplay(){
+ @Override
+  public String play(){
     return "mmmnneee mmmneee";
 
   }
@@ -34,19 +35,5 @@ public class Violin extends Instrument{
 
   }
 
-  public String getColour(){
-    return this.colour;
-
-  }
-
-  public String getMaterial(){
-    return this.material;
-
-  }
-
-  public String getType(){
-    return this.type;
-
-  }
   }
 

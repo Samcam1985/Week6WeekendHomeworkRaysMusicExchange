@@ -15,7 +15,8 @@ public class Harp extends Instrument{
     this.spareStrings = spareStrings;
   }
 
-  public String getplay(){
+ @Override
+  public String play(){
     return "Pling Pling";
 
   }
@@ -30,21 +31,6 @@ public class Harp extends Instrument{
 
   public String getSpareStrings(){
     return this.spareStrings;
-
-  }
-
-  public String getColour(){
-    return this.colour;
-
-  }
-
-  public String getMaterial(){
-    return this.material;
-
-  }
-
-  public String getType(){
-    return this.type;
 
   }
   

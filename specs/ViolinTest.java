@@ -12,8 +12,8 @@ public void before(){
 }
 
 @Test 
-public void getplay(){
-  assertEquals("mmmnneee mmmneee", violin.getplay());
+public void play(){
+  assertEquals("mmmnneee mmmneee", violin.play());
 }
 
 @Test

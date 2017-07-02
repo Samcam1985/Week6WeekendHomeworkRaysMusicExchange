@@ -12,8 +12,8 @@ public void before(){
 }
 
 @Test 
-public void getplay(){
-  assertEquals("Do di do di do di do di", keyboard.getplay());
+public void play(){
+  assertEquals("Do di do di do di do di", keyboard.play());
 }
 
 @Test

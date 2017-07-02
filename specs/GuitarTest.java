@@ -12,8 +12,8 @@ public void before(){
 }
 
 @Test 
-public void getplay(){
-  assertEquals("Twang", guitar.getplay());
+public void play(){
+  assertEquals("Twang", guitar.play());
 }
 
 @Test
