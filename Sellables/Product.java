@@ -19,7 +19,7 @@ public class Product implements Sellable{
 }
 
   public int calculateMarkup(int buyingPrice, int sellingPrice){
-    return buyingPrice - sellingPrice;
+    return sellingPrice - buyingPrice;
 
   }
   
