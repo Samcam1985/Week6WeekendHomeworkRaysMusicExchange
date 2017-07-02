@@ -1,14 +1,23 @@
 package Strategy_pattern;
 import behaviours.*;
 
-public class Guitar implements Playable{
+public class Guitar extends Instrument{
 
   int numberOfStrings;
-  String type;
+  String manufacturer;
 
 
-  public Guitar(int numberOfStrings, String type) {
+  public Guitar(int numberOfStrings, String manufacturer, String colour, String material, String type ) {
+    super(colour, material, type);
     this.numberOfStrings = numberOfStrings;
-    this.type = type;
+    this.manufacturer = manufacturer;
+  
+
   }
+
+  public String play(){
+    return "Twang";
+
+  }
+
 }

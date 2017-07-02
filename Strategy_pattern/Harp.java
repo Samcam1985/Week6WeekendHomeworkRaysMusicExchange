@@ -1,16 +1,22 @@
 package Strategy_pattern;
 import behaviours.*;
 
-public class Harp implements Playable{
+public class Harp extends Instrument{
 
   int numberOfStrings;
-  String type;
+  String manufacturer;
   String spareStrings;
 
 
-  public Harp(int numberOfStrings, String type, String spareStrings) {
+  public Harp(int numberOfStrings, String manufacturer, String spareStrings, String colour, String material, String type) {
+    super(colour, material, type);
     this.numberOfStrings = numberOfStrings;
-    this.type = type;
+    this.manufacturer = manufacturer;
     this.spareStrings = spareStrings;
+  }
+
+  public String play(){
+    return "Pling Pling";
+
   }
 }
