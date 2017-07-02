@@ -15,10 +15,38 @@ public class Violin extends Instrument{
     this.spareStrings = spareStrings;
   }
 
-  public String play(){
+  public String getplay(){
     return "mmmnneee mmmneee";
 
   }
 
+  public int getNumberOfStrings(){
+    return this.numberOfStrings;
+  }
 
-}
+  public String getManufacturer(){
+    return this.manufacturer;
+
+  }
+
+  public String getSpareStrings(){
+    return this.spareStrings;
+
+  }
+
+  public String getColour(){
+    return this.colour;
+
+  }
+
+  public String getMaterial(){
+    return this.material;
+
+  }
+
+  public String getType(){
+    return this.type;
+
+  }
+  }
+
