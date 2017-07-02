@@ -1,4 +1,4 @@
-package Strategy_pattern;
+package Instruments;
 import behaviours.*;
 
 public abstract class Instrument implements Playable{
@@ -17,4 +17,6 @@ public abstract class Instrument implements Playable{
     return "";
 
   }
+
+  
   }

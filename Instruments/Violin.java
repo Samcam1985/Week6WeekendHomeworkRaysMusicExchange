@@ -1,4 +1,4 @@
-package Strategy_pattern;
+package Instruments;
 import behaviours.*;
 
 public class Violin extends Instrument{
@@ -19,4 +19,6 @@ public class Violin extends Instrument{
     return "mmmnneee mmmneee";
 
   }
+
+
 }

@@ -1,4 +1,4 @@
-package Strategy_pattern;
+package Instruments;
 import behaviours.*;
 
 public class Keyboard extends Instrument{
@@ -18,4 +18,5 @@ public class Keyboard extends Instrument{
     return "Do di do di do di do di";  //keyboard cat
 
   }
+
 }

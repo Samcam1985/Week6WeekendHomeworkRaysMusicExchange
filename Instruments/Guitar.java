@@ -1,4 +1,4 @@
-package Strategy_pattern;
+package Instruments;
 import behaviours.*;
 
 public class Guitar extends Instrument{
@@ -19,5 +19,6 @@ public class Guitar extends Instrument{
     return "Twang";
 
   }
+
 
 }
